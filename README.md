@@ -137,15 +137,16 @@ Starting up http-server, serving ./ on: http://0.0.0.0:8000/
 
 Confirm that the files you created in steps 1 and 2 are being served by visiting the following URLs:
 http://localhost:8000/atlassian-connect.json
+
 http://localhost:8000/helloworld.html
 
 ## Step 2: Make the app files available to the internet
 Now that your app is hosted on a local web server, let’s use ngrok to make it available over the internet.
 
 In a new command line window, run the following command to expose your web server to the internet. If your app is not running on port 8000, then change the command to use your app’s port number.
-
+```
 ngrok http 8000
-
+```
 
 You’ll see a status page on your command line that shows the public URL of your tunnel and other information about connections made over your tunnel. If your app is not running when you try to start ngrok, you’ll see a “Failed to complete tunnel connection” message.
 
