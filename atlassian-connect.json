@@ -21,6 +21,30 @@
                   "value": "Auto Task"
               }
           }
+      ],
+      "webSections": [
+        {
+          "key": "auto-task-section",
+          "location": "jira.agile.board.tools",
+          "weight": 10,
+          "name": {
+            "value": "Auto Task Section"
+          }
+        }
+      ],
+      "webPanels": [
+        {
+          "key": "auto-task-panel",
+          "url": "web-panel?id={board.id}&mode={board.screen}",
+          "name": {
+            "value": "Auto Task Panel"
+          },
+          "location": "auto-task-section",
+          "layout": {
+            "width": "100px",
+            "height": "100px"
+          }
+        }
       ]
   }
  }
