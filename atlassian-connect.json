@@ -1,0 +1,26 @@
+{
+  "name": "Auto Task",
+  "description": "Atlassian Connect app",
+  "key": "khale.app.autotask",
+  "baseUrl": "https://9637cb87.ngrok.io",
+  "vendor": {
+      "name": "KhaLe.",
+      "url": "http://9637cb87.ngrok.io"
+  },
+  "authentication": {
+      "type": "none"
+  },
+  "apiVersion": 1,
+  "modules": {
+      "generalPages": [
+          {
+              "url": "/autotask.html",
+              "key": "auto-task",
+              "location": "system.top.navigation.bar",
+              "name": {
+                  "value": "Auto Task"
+              }
+          }
+      ]
+  }
+ }
