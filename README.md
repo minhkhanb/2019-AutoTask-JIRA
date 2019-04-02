@@ -137,7 +137,6 @@ Starting up http-server, serving ./ on: http://0.0.0.0:8000/
 
 Confirm that the files you created in steps 1 and 2 are being served by visiting the following URLs:
 http://localhost:8000/atlassian-connect.json
-
 http://localhost:8000/helloworld.html
 
 ## Step 2: Make the app files available to the internet
